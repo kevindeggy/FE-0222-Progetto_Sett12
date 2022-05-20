@@ -76,9 +76,25 @@ import { UserService } from '../service/user.service';
 .icon {
   color: grey;
 }
-.load {
+.load {
   width: 30px;
   max-heigth: 20px
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+  display: grid;
+  gap:1em;
+  vertical-align: center
+}
+.movie-card {
+  max-width: 70%;
+  min-width: 35%;
+  margin: 0 auto;
+  box-shadow: 4px 4px 10px black;
+  color: #E50914;
+  opacity: 0.9;
+}
 }
   `],
 })
