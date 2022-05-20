@@ -17,6 +17,12 @@
       "password": "$2a$10$RbVhc491Wkp/pMUQM5hIZ.36eis5LxgVolnCktECZ8zOSbVOLcEvy",
       "name": "Dario Del Giudice",
       "id": 3
+    },
+    {
+      "email": "al@alfre.com",
+      "password": "$2a$10$XQsYU56s1t6kQY9bSR3HluIH9xvzs2iSXi2xSPNuhff5Z6aB0Ncw.",
+      "name": "Alfredo",
+      "id": 4
     }
   ],
   "favorites": [

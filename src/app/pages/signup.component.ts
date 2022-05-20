@@ -15,7 +15,7 @@ import { DialogSuccessComponent } from '../components/dialogSuccess.component';
 <form class="signup-form" #form="ngForm" (ngSubmit)="submitSignup(form)">
 <mat-form-field color="accent" class="signup-full-width" appearance="fill">
     <mat-label class="label">Name</mat-label>
-    <input pattern="[a-zA-Z]" type="text" matInput required ngModel name="name" [errorStateMatcher]="matcher"
+    <input pattern="^[a-zA-Z]*$" type="text" matInput required ngModel name="name" [errorStateMatcher]="matcher"
            placeholder="Ex. Mario Rossi">
     <mat-error class="label" *ngIf="emailFormControl.hasError('required')">
       Name is <strong>required</strong>

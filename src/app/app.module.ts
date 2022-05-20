@@ -26,6 +26,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { SignupComponent } from './pages/signup.component';
 import { DialogComponent } from './components/dialog.component';
 import { TokenInterceptor } from './auth/token.interceptor';
+import { DialogLoginComponent } from './components/dialogLogin.component';
+import { DialogSuccessComponent } from './components/dialogSuccess.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { TokenInterceptor } from './auth/token.interceptor';
     UserPageComponent,
     MovieInfoComponent,
     SignupComponent,
-    DialogComponent
+    DialogComponent,
+    DialogLoginComponent,
+    DialogSuccessComponent
   ],
   imports: [
     BrowserModule,

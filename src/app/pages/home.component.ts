@@ -42,9 +42,6 @@ import { UserService } from '../service/user.service';
         <button *ngIf="!moviesFav[i] && !loadingClickLike[i]" (click)="[clickLike(), postLike(item.id, i)]" mat-button class="icon"><mat-icon class="icon">thumb_up</mat-icon> Like</button>
         <button [routerLink]= "['/movieinfo',item.id]" mat-button>Dettagli</button>
       </mat-card-actions>
-      <mat-card-footer>
-        <mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar>
-      </mat-card-footer>
     </mat-card>
 
    </div>
